@@ -1,0 +1,115 @@
+[
+    {
+        "id":1,
+        "name":"2021 Acura TLX",
+        "category":"Acura",
+        "model":"TLX",
+        "price":3000000,
+        "mileage":6000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"manual",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":2,
+        "name":"2021 Acura RDX",
+        "category":"Acura",
+        "model":"RDX",
+        "price":4000000,
+        "mileage":8000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"manual",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":3,
+        "name":"2024 BMW i5",
+        "category":"BMW",
+        "model":"i5",
+        "price":6000000,
+        "mileage":10000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"Autometic",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":4,
+        "name":"1969 Ford Cobra",
+        "category":"Ford",
+        "model":"Cobra",
+        "price":6000000,
+        "mileage":10000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"manual",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":5,
+        "name":"2022 Kia EV6",
+        "category":"Kia",
+        "model":"EV6",
+        "price":6000000,
+        "mileage":10000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"manual",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":6,
+        "name":"1950 Jeep M37",
+        "category":"Jeep",
+        "model":"M37",
+        "price":3500000,
+        "mileage":12000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+       
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"autometic",
+        "fuel":"Diesel"
+        
+    },
+    {
+        "id":7,
+        "name":"2008 Tesla Roadster",
+        "category":"Tesla",
+        "model":"Roadster",
+        "price":6000000,
+        "mileage":10000,
+        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "colors":[
+            "#ff0000",
+            "#000"
+        ],
+        "Transmission":"manual",
+        "fuel":"Diesel"
+        
+    }
+]

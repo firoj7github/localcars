@@ -1,0 +1,27 @@
+.brand{
+    width: 87%;
+    margin: 0 auto;
+  
+    padding-left: 55px;
+    
+    
+     
+}
+.count{
+    font-size: 13px;
+}
+.brand-text{
+    font-size: 17px;
+}
+@media  (min-width:351px) and (max-width:780px) 
+{
+    .brand{
+        width: 87%;
+        margin: 0 auto;
+        
+         
+    } 
+    .jj{
+      width: 150px;
+    }
+}
