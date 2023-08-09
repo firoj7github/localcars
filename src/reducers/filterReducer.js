@@ -4,7 +4,8 @@ const filterReducer =(state, action)=>{
         case "LOAD_FILTER_PRODUCT":
             return{
                ...state,
-               filter_products:[...action.payload]
+               filter_products:[...action.payload],
+               all_products:[...action.payload]
             };
             
            

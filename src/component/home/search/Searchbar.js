@@ -28,6 +28,12 @@ function Searchbar() {
         { value: 'vanilla', label: 'Vanilla' }
       ]
     
+     const area = [
+        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'strawberry', label: 'Strawberry' },
+        { value: 'vanilla', label: 'Vanilla' }
+      ]
+    
     return (
         <div className="dropdown-manage">
             
@@ -52,18 +58,24 @@ function Searchbar() {
             {/* start tab 1*/} 
             <div  className= { showtab===1 ? "tab-pane  show active":"tab-pane fade show"} > 
             <div className="d-flex orginal mt-2">
-            <Select className="select select-manage ms-3" placeholder="All Makes" options={makes} />
-          <Select className="select select-manage ms-3" placeholder="All Models" options={models} />
+            <Select className=" select-manage ms-3" placeholder="All Makes" options={makes} />
+          <Select className=" select-manage ms-3" placeholder="All Models" options={models} />
+          
+          
+          <div className="d-flex">
+          <Select className="select-manage2  ms-3" placeholder="Min Price" options={prices} />
+          <p className="ms-4 mt-2">TO</p>
+          <Select className="select-manage2  ms-4" placeholder="Max Price" options={prices} />
+          </div>
         
-          <Select className="select select-price ms-4" placeholder="Min Price" options={prices} />
-          <p className="ms-3 mt-2">TO</p>
-          <Select className="select select-price ms-4" placeholder="Max Price" options={prices} />
+          
         
           
             </div>
-            <div className="d-flex">
-            <Select className="select ms-3" placeholder="250 Miles" options={makes} />
-          <Select className="select ms-4" placeholder="Zip Code" options={models} />
+            <div className="d-flex orginal2">
+            <Select className="select-manage2 ms-3 " placeholder="50 miles" options={area} />
+            <p className="ms-4 mt-2">OF</p>
+          <Select className="select-manage2 ms-4" placeholder="Zip Code" options={models} />
           <Button className="ms-4 select-button" variant="danger"><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>
           
             </div>
@@ -76,16 +88,25 @@ function Searchbar() {
  
           {/* start tab 2*/} 
            <div  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} > 
-           <div className="d-flex mt-2">
-            <Select className="select ms-3" placeholder="All Body Style" options={makes} />
-          <Select className="select ms-4" placeholder="Max Miles" options={models} />
-          <Select className="select ms-4" placeholder="Min Price" options={prices} />
-          <p className="ms-3 mt-2">TO</p>
-          <Select className="select ms-4" placeholder="Max Price" options={prices} />
+           <div className="d-flex orginal mt-2">
+            <Select className=" select-manage ms-3" placeholder="All Body Style" options={makes} />
+          <Select className=" select-manage ms-3" placeholder="Max Mileage" options={models} />
+          
+          
+          <div className="d-flex">
+          <Select className="select-manage2  ms-3" placeholder="Min Price" options={prices} />
+          <p className="ms-4 mt-2">TO</p>
+          <Select className="select-manage2  ms-4" placeholder="Max Price" options={prices} />
+          </div>
+        
+          
+        
+          
             </div>
-            <div className="d-flex">
-            <Select className="select ms-3" placeholder="All Makes" options={makes} />
-          <Select className="select ms-4" placeholder="All Models" options={models} />
+            <div className="d-flex orginal2">
+            <Select className="select-manage2 ms-3 " placeholder="250 Miles" options={makes} />
+            <p className="ms-4 mt-2">OF</p>
+          <Select className="select-manage2 ms-4" placeholder="Zip Code" options={models} />
           <Button className="ms-4 select-button" variant="danger"><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>
           
             </div>
@@ -95,16 +116,25 @@ function Searchbar() {
  
             {/* start tab 3*/} 
             <div  className= { showtab===3 ? "tab-pane fade show active": "tab-pane fade"} > 
-            <div className="d-flex mt-2">
-            <Select className="select ms-3" placeholder="Min Payment" options={makes} />
-          <Select className="select ms-4" placeholder="Max Payment" options={models} />
-          <Select className="select ms-4" placeholder="Min Price" options={prices} />
-          <p className="ms-3 mt-2">TO</p>
-          <Select className="select ms-4" placeholder="Max Price" options={prices} />
+             <div className="d-flex orginal mt-2">
+            <Select className=" select-manage ms-3" placeholder="All Makes" options={makes} />
+          <Select className=" select-manage ms-3" placeholder="All Models" options={models} />
+          
+          
+          <div className="d-flex">
+          <Select className="select-manage2  ms-3" placeholder="Min Price" options={prices} />
+          <p className="ms-4 mt-2">TO</p>
+          <Select className="select-manage2  ms-4" placeholder="Max Price" options={prices} />
+          </div>
+        
+          
+        
+          
             </div>
-            <div className="d-flex">
-            <Select className="select ms-3" placeholder="250 Miles" options={makes} />
-          <Select className="select ms-4" placeholder="Zip Code" options={models} />
+            <div className="d-flex orginal2">
+            <Select className="select-manage2 ms-3 " placeholder="250 Miles" options={makes} />
+            <p className="ms-4 mt-2">OF</p>
+          <Select className="select-manage2 ms-4" placeholder="Zip Code" options={models} />
           <Button className="ms-4 select-button" variant="danger"><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>
           
             </div>

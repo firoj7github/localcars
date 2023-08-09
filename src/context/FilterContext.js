@@ -9,6 +9,7 @@ const FilterContext= createContext();
 
 const initialState={
     filter_products:[],
+    all_products:[]
 }
 
 export const FilterContextProvider=({children})=>{

@@ -25,6 +25,8 @@ nav ul li{
 .nav-total{
     background-color: white;
     height: 90px;
+   border-bottom: 1px solid rgb(213, 208, 208);
+   box-shadow: rgba(195, 191, 191, 0.16) 0px 1px 4px;
 }
 .navbar-logo{
     margin-left: 60px;

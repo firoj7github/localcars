@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Header.css";
 import icon from "../../img/images.png"
+import { Link } from 'react-router-dom';
 
 
 function Header2() {
@@ -23,10 +24,10 @@ function Header2() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav responsive-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <Link to="/" className="nav-link active" aria-current="page" href="#">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Autos</a>
+          <Link to="/autos" className="nav-link" href="#">Autos</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Vehicle History</a>
