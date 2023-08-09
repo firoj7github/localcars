@@ -55,8 +55,10 @@ function Searchbar() {
 
        <div className="tab-content text-dark" id="pills-tabContent">
  
-            {/* start tab 1*/} 
-            <div  className= { showtab===1 ? "tab-pane  show active":"tab-pane fade show"} > 
+    {/* start tab 1*/} 
+            
+            
+            <form  className= { showtab===1 ? "tab-pane  show active":"tab-pane fade show"} > 
             <div className="d-flex orginal mt-2">
             <Select className=" select-manage ms-3" placeholder="All Makes" options={makes} />
           <Select className=" select-manage ms-3" placeholder="All Models" options={models} />
@@ -68,10 +70,10 @@ function Searchbar() {
           <Select className="select-manage2  ms-4" placeholder="Max Price" options={prices} />
           </div>
         
-          
-        
-          
-            </div>
+      </div>
+            
+            
+            
             <div className="d-flex orginal2">
             <Select className="select-manage2 ms-3 " placeholder="50 miles" options={area} />
             <p className="ms-4 mt-2">OF</p>
@@ -82,12 +84,13 @@ function Searchbar() {
             
           
 
-           </div>
-           {/* close tab 1*/} 
+           </form>
+    {/* close tab 1*/} 
  
  
           {/* start tab 2*/} 
-           <div  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} > 
+           <form  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} > 
+           
            <div className="d-flex orginal mt-2">
             <Select className=" select-manage ms-3" placeholder="All Body Style" options={makes} />
           <Select className=" select-manage ms-3" placeholder="Max Mileage" options={models} />
@@ -98,24 +101,22 @@ function Searchbar() {
           <p className="ms-4 mt-2">TO</p>
           <Select className="select-manage2  ms-4" placeholder="Max Price" options={prices} />
           </div>
+          </div>
         
-          
         
-          
-            </div>
-            <div className="d-flex orginal2">
+        <div className="d-flex orginal2">
             <Select className="select-manage2 ms-3 " placeholder="250 Miles" options={makes} />
             <p className="ms-4 mt-2">OF</p>
           <Select className="select-manage2 ms-4" placeholder="Zip Code" options={models} />
           <Button className="ms-4 select-button" variant="danger"><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>
           
             </div>
-           </div>
+           </form>
            {/* close tab 2*/} 
  
  
             {/* start tab 3*/} 
-            <div  className= { showtab===3 ? "tab-pane fade show active": "tab-pane fade"} > 
+            <form  className= { showtab===3 ? "tab-pane fade show active": "tab-pane fade"} > 
              <div className="d-flex orginal mt-2">
             <Select className=" select-manage ms-3" placeholder="All Makes" options={makes} />
           <Select className=" select-manage ms-3" placeholder="All Models" options={models} />
@@ -138,7 +139,7 @@ function Searchbar() {
           <Button className="ms-4 select-button" variant="danger"><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>
           
             </div>
-           </div>
+           </form>
            {/* close tab 3*/} 
  
  
