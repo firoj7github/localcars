@@ -3,8 +3,37 @@ import { useState } from "react";
 import "./Searchbar.css";
 import Select from 'react-select'
 import Button from 'react-bootstrap/Button';
+import { useFilterContext } from '../../../context/FilterContext';
 
 function Searchbar() {
+  const [value, setValue]=useState(null);
+ console.log(value);
+  
+   
+  const{ all_products}= useFilterContext();
+    
+  const getUniqueModel=(data, property)=>{
+  let newModel= data.map((curElement)=>
+
+  {
+    
+    if(curElement.category === value){
+      return curElement[property];
+    }else{
+      // return curElement[property];
+    }
+      
+  });
+  newModel=[...new Set(newModel)]
+      console.log(newModel);
+  }
+
+  // we need unique condition
+
+  const onlyConditiondata = getUniqueModel(all_products, "model");
+
+
+
     const[showtab, setShowtab]= useState(1);
  
   const handletab = (e)=>{
@@ -13,12 +42,12 @@ function Searchbar() {
 
 
      const makes = [
-        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'acura', label: 'acura' },
         { value: 'strawberry', label: 'Strawberry' },
         { value: 'vanilla', label: 'Vanilla' }
       ]
      const models = [
-        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'i5', label: 'i5' },
         { value: 'strawberry', label: 'Strawberry' },
         { value: 'vanilla', label: 'Vanilla' }
       ]
@@ -60,8 +89,22 @@ function Searchbar() {
             
             <form  className= { showtab===1 ? "tab-pane  show active":"tab-pane fade show"} > 
             <div className="d-flex orginal mt-2">
-            <Select className=" select-manage ms-3" placeholder="All Makes" options={makes} />
-          <Select className=" select-manage ms-3" placeholder="All Models" options={models} />
+            <select className=" select-manage ms-3" placeholder="All Makes"  onChange={(e)=>setValue(e.target.value)}   
+            
+         
+            >
+              <option>acura</option>
+              <option>achhh</option>
+              <option>lcura</option>
+              <option>kcura</option>
+              <option>ocura</option>
+            </select>
+              
+               
+           
+              <Select className=" select-manage ms-3" placeholder="All Models" disabled options={models} />
+          
+          
           
           
           <div className="d-flex">

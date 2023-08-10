@@ -9,7 +9,7 @@ import {HiOutlineMail} from 'react-icons/hi';
 function AutoShow(auto) {
    
     
-    const {title, img, drivetrains, model, body, price, area}=auto;
+    const {title,condition, img, drivetrains, model, body, price, area}=auto;
     return (
       <div>
 
@@ -60,7 +60,7 @@ function AutoShow(auto) {
                   <p className="engine">5</p>
                 </div>
               </div>
-
+              <p>{condition}</p>
             </div>
               </div>
               <div className="col-lg-5"></div>
@@ -79,8 +79,8 @@ function AutoShow(auto) {
         <div className='d-flex justify-content-between'>
          <div></div>
          <div>
-          <button className='call-button '>< IoIosCall/><span className='ms-1'>Call</span></button>
-          <button className="text-button ms-2">< BsFillChatFill/><span className='ms-1'>Text</span></button>
+          {/* <button className='call-button '>< IoIosCall/><span className='ms-1'>Call</span></button>
+          <button className="text-button ms-2">< BsFillChatFill/><span className='ms-1'>Text</span></button> */}
           <button className="email-button ms-2">< HiOutlineMail/><span className='ms-1'>Email</span></button>
          </div>
         </div>

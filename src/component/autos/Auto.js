@@ -5,14 +5,21 @@ import "./Autos.css"
 
 
 function Auto() {
-    const{ filter_products, all_products}= useFilterContext();
+
+   
+    const{ filter_products, 
+      all_products,
+      filters:{condition},
+      updateFilterValue,
+    }= useFilterContext();
+    console.log(filter_products)
     
     const getUniqueData=(data, property)=>{
     let newCondition= data.map((curElement)=>{
         return curElement[property];
     });
-        newCondition=["all", ...new Set(newCondition)]
-        console.log(newCondition);
+      return  newCondition=["all", ...new Set(newCondition)]
+       
     }
 
     // we need unique condition
@@ -29,6 +36,23 @@ function Auto() {
               <div className="col-lg-4 filter-section me-4  mb-2">
                 {/* condition filter start */}
                  <p className='condition'>Condition</p> 
+                 <div className="d-flex flex-column p-2">
+                  {
+                    onlyConditiondata.map((curCon, index)=>{
+                        return <button
+                        key={index}
+                        type='radio'
+                        name="condition"
+                        value={curCon}
+                        onClick={updateFilterValue}
+                        className="condition-button"
+
+                        >
+                          {curCon}
+                        </button>
+                    })
+                  }
+                 </div>
                  <div></div>
                 {/* condition filter close */}
 

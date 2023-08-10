@@ -94,3 +94,7 @@
     font-weight: 600;
     margin-top: 10px;
 }
+.condition-button{
+    border: 1px solid white;
+    margin-top: 5px;
+}
