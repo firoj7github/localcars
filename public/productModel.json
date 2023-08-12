@@ -1,0 +1,37 @@
+[
+  {
+    "id":1,
+    "name":"TLX",
+    "category_id": 1
+  },
+  {
+    "id":2,
+    "name":"RDX",
+    "category_id": 1
+  },
+  {
+    "id":3,
+    "name":"i5",
+    "category_id": 2
+  },
+  {
+    "id":4,
+    "name":"Cobra",
+    "category_id": 6
+  },
+  {
+    "id":5,
+    "name":"EV6",
+    "category_id": 3
+  },
+  {
+    "id":6,
+    "name":"M37",
+    "category_id": 5
+  },
+  {
+    "id":7,
+    "name":"Roadster",
+    "category_id": 4
+  }
+]

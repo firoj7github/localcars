@@ -1,5 +1,5 @@
 .banner{
-    background: url(/src/img/imagen1.jpg);
+    background: url(/src/img/1588503443.jpg);
     background-size: cover;
     background-position: 69%;
     background-repeat: no-repeat;
@@ -7,10 +7,35 @@
     height: 400px;
    
 }
-@media  (min-width:351px) and (max-width:780px) 
+.banner-title{
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+}
+.option-button{
+    background-color: darkcyan;
+    width: 120px;
+    margin: 0 auto;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 7px;
+    
+}
+@media  (min-width:300px) and (max-width:767px) 
 {
     .banner{
-        background: url(/src/img/imagen1.jpg);
+        background: url(/src/img/bbbb222.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+}
+@media  (min-width:768px) and (max-width:1200px) 
+{
+    .banner{
+        background: url(/src/img/bbbb222.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

@@ -2,14 +2,14 @@ import React from 'react'
 import { PiEngineFill } from 'react-icons/pi';
 import { CiDumbbell } from 'react-icons/ci';
 import {SlCalender } from 'react-icons/sl';
-import {IoIosCall} from 'react-icons/io';
-import {BsFillChatFill} from 'react-icons/bs';
+// import {IoIosCall} from 'react-icons/io';
+// import {BsFillChatFill} from 'react-icons/bs';
 import {HiOutlineMail} from 'react-icons/hi';
 
 function AutoShow(auto) {
    
     
-    const {title,condition, img, drivetrains, model, body, price, area}=auto;
+    const {title,deller, location, img, drivetrains, model, body, price, area}=auto;
     return (
       <div>
 
@@ -20,7 +20,7 @@ function AutoShow(auto) {
      
       <div className="card-body">
         <div className="row">
-          <div className="col-lg-5 col-sm-12">
+          <div className="col-lg-5  col-sm-12">
             <img className="car-img" src={img} alt=""/>
           </div>
           <div className="col-lg-7 col-sm-12">
@@ -32,8 +32,8 @@ function AutoShow(auto) {
             <h6> <span className="area">{area}</span> miles</h6>
 
 
-            <div className='row'>
-              <div className="col-lg-4 d-flex">
+            <div className='row show-control'>
+              <div className="col-lg-4 show-1 d-flex">
                 <div>
                 <h6 className="text-danger"><PiEngineFill></PiEngineFill></h6>
                 </div>
@@ -42,7 +42,7 @@ function AutoShow(auto) {
                   <p className="engine">5.0L V8</p>
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 show-2 d-flex">
               <div>
                 <h6 className="text-danger"><CiDumbbell/></h6>
                 </div>
@@ -51,7 +51,7 @@ function AutoShow(auto) {
                   <p className="engine">{drivetrains}</p>
                 </div>
               </div>
-              <div className="col-lg-4 d-flex">
+              <div className="col-lg-4 show-3 d-flex">
               <div>
                 <h6 className="text-danger ms-3"><SlCalender/></h6>
                 </div>
@@ -60,7 +60,7 @@ function AutoShow(auto) {
                   <p className="engine">5</p>
                 </div>
               </div>
-              <p>{condition}</p>
+             
             </div>
               </div>
               <div className="col-lg-5"></div>
@@ -77,7 +77,10 @@ function AutoShow(auto) {
       <div class="card-footer">
       <small class="text-muted">
         <div className='d-flex justify-content-between'>
-         <div></div>
+         <div>
+          <h6 className="text-success">{deller}</h6>
+          <p className="m-0 ms-1">{location}</p>
+         </div>
          <div>
           {/* <button className='call-button '>< IoIosCall/><span className='ms-1'>Call</span></button>
           <button className="text-button ms-2">< BsFillChatFill/><span className='ms-1'>Text</span></button> */}

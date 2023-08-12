@@ -5,6 +5,10 @@
     background: rgb(31,16,107);
 background: linear-gradient(90deg, rgba(31,16,107,1) 20%, rgba(58,8,70,1) 52%, rgba(97,4,4,1) 100%, rgba(177,6,32,1) 100%, rgba(220,54,88,1) 100%, rgba(253,29,222,1) 100%, rgba(106,0,15,1) 100%);
 }
+.logo{
+    width: 100px;
+    height: 80px;
+}
 
 nav ul{
     margin-top: -4px;
@@ -60,21 +64,26 @@ nav ul li{
     height: 70px;
    
   }
+  
 
-@media  (min-width:351px) and (max-width:780px) 
+@media  (min-width:300px) and (max-width:320px) 
 {
     .responsive-nav{
         background-color: white;
         height: auto;
         margin-top: 40px;
-        width: auto;
+        width: 100%;
         scroll-behavior: unset;
         z-index: 2;
         margin-top: -1px;
-        padding: 0;
+        width: 100%;
+        position: relative;
        
         
         
+    }
+    .nav-first ul li{
+        font-size: 13px;
     }
     .navbar-nav{
         padding: 0;
@@ -86,9 +95,10 @@ nav ul li{
     }
     .ll{
         margin-bottom: 25px;
+        
     }
     .login-item{
-        margin-left: -10px;
+        margin-left: -35px;
     }
     .about-item{
        display: none;
@@ -99,17 +109,1253 @@ nav ul li{
     .header-button{
         background-color: rgb(184, 27, 45);
         border: 1px solid rgb(184, 27, 45);
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 3px;
+        padding-right: 3px;
         color: white;
         font-weight: 500;
-        font-size: 16px;
-        margin-left: 8px;
+        font-size: 12px;
+        margin-left: 0px;
     }
     .service-call{
        visibility: hidden;
        
       }
 
+}
+@media  (min-width:321px) and (max-width:350px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: -22px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 9px;
+        padding-right: 9px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:351px) and (max-width:400px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 19px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 14px;
+        padding-right: 14px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:401px) and (max-width:450px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 50px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:451px) and (max-width:500px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 110px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:501px) and (max-width:550px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 145px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:551px) and (max-width:600px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 200px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:601px) and (max-width:650px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 250px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:651px) and (max-width:700px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 295px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:701px) and (max-width:750px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 345px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:751px) and (max-width:800px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 395px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:801px) and (max-width:850px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 445px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:851px) and (max-width:900px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 495px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:901px) and (max-width:950px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 545px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:951px) and (max-width:1000px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 595px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1001px) and (max-width:1050px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 645px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1051px) and (max-width:1100px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 695px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1101px) and (max-width:1150px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 745px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1151px) and (max-width:1200px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 795px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1201px) and (max-width:1250px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 845px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+@media  (min-width:1251px) and (max-width:1300px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: auto;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        padding: 0;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: 895px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+
+}
+
+
+@media  (min-width:1400px) and (max-width:1450px) 
+
+{
+    .login-item{
+        margin-left: 795px;
+    }
+}
+@media  (min-width:1451px) and (max-width:1500px) 
+
+{
+    .login-item{
+        margin-left: 852px;
+    }
+}
+@media  (min-width:1501px) and (max-width:1550px) 
+
+{
+    .login-item{
+        margin-left: 897px;
+    }
+}
+@media  (min-width:1551px) and (max-width:1600px) 
+
+{
+    .login-item{
+        margin-left: 930px;
+    }
+}
+@media  (min-width:1601px) and (max-width:1650px) 
+
+{
+    .login-item{
+        margin-left: 982px;
+    }
+}
+@media  (min-width:1651px) and (max-width:1700px) 
+
+{
+    .login-item{
+        margin-left: 1015px;
+    }
+}
+@media  (min-width:1701px) and (max-width:1750px) 
+
+{
+    .login-item{
+        margin-left: 1075px;
+    }
+}
+@media  (min-width:1751px) and (max-width:1800px) 
+
+{
+    .login-item{
+        margin-left: 1130px;
+    }
+}
+@media  (min-width:1801px) and (max-width:1850px) 
+
+{
+    .login-item{
+        margin-left: 1195px;
+    }
+}
+@media  (min-width:1851px) and (max-width:1900px) 
+
+{
+    .login-item{
+        margin-left: 1235px;
+    }
+}
+@media  (min-width:1901px) and (max-width:1950px) 
+
+{
+    .login-item{
+        margin-left: 1295px;
+    }
+}
+@media  (min-width:1951px) and (max-width:2000px) 
+
+{
+    .login-item{
+        margin-left: 1335px;
+    }
+}
+@media  (min-width:2001px) and (max-width:2050px) 
+
+{
+    .login-item{
+        margin-left: 1395px;
+    }
+}
+@media  (min-width:2051px) and (max-width:2100px) 
+
+{
+    .login-item{
+        margin-left: 1435px;
+    }
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Trending.css"
-import img1 from"../../../img/hero-61-768x461.jpg"
-import img2 from"../../../img/hero-50-768x461.jpg"
-import img3 from"../../../img/hero-43-768x461.jpg"
-import img4 from"../../../img/hero-36-768x461.jpg"
+import img1 from"../../../img/2018-bmw-x3-m40i-awd-4dr-suv.jpg"
+import img2 from"../../../img/2018-jeep-compass-trailhawk-sport-utility-164778574.jpg"
+import img3 from"../../../img/2019-chevrolet-equinox-ls-sport-utility-2107783355.jpg"
+import img4 from"../../../img/2023-mitsubishi-outlander-es-sport-utility-1416567842.jpg"
 
 function Trending() {
     return (

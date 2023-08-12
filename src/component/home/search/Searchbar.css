@@ -79,7 +79,286 @@
     width: 920px;
    
 }
-@media  (min-width:300px) and (max-width:780px) 
+
+
+
+@media  (min-width:300px) and (max-width:320px) 
+{
+    .dropdown-manage{
+        width: 100%;
+        height: 300px;
+        background-color:white;
+      
+        margin-top: -50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+    }
+    .nav-manage{
+        background-color: rgb(45, 42, 42);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-weight: 500;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        
+    
+        
+    }
+    .nav-manages{
+        background-color: rgb(45, 42, 42);
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: unset;
+        color: white;
+        font-weight: 500;
+       
+    }
+    .dropdown-button{
+        width: auto;
+        height: auto;
+        
+        margin-top: -44px;
+        
+       
+        
+        
+           
+    }
+    
+    .select-manage{
+      width:92%;
+      margin-bottom: 3px;
+      
+      
+     
+
+     
+    }
+    .select-manage2{
+        width: 35%;
+        margin-top: 3px;
+        font-size: 11px;
+       
+       
+      }
+    
+    .orginal{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+       
+    }
+    .orginal2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+       
+    }
+    .select-button{
+        width: 250px;
+        font-weight: 900;
+        height: 42px;
+       
+        
+    }
+    
+    
+}
+@media  (min-width:321px) and (max-width:350px) 
+{
+    .dropdown-manage{
+        width: 100%;
+        height: 300px;
+        background-color:white;
+      
+        margin-top: -50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+    }
+    .dropdown-button{
+        width: auto;
+        height: auto;
+        
+        margin-top: -44px;
+        
+       
+        
+        
+           
+    }
+
+    .select-button{
+        width: 250px;
+        font-weight: 900;
+        height: 42px;
+       
+        
+    }
+    
+    .select-manage{
+      width:58%;
+      margin-bottom: 3px;
+      
+      
+     
+
+     
+    }
+    .select-manage2{
+        width: 22%;
+        margin-top: 3px;
+        font-size: 13px;
+       
+       
+      }
+    
+    .orginal{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+       
+    }
+    .orginal2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+       
+    }
+    
+    
+}
+@media  (min-width:351px) and (max-width:399px) 
+{
+    .dropdown-manage{
+        width: 100%;
+        height: 300px;
+        background-color:white;
+      
+        margin-top: -50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+    }
+    .dropdown-button{
+        width: auto;
+        height: auto;
+        
+        margin-top: -44px;
+        
+       
+        
+        
+           
+    }
+    .select-button{
+        width: 250px;
+        font-weight: 900;
+        height: 42px;
+       
+        
+    }
+    
+    .select-manage{
+      width:66%;
+      margin-bottom: 3px;
+      
+      
+     
+
+     
+    }
+    .select-manage2{
+        width: 26%;
+        margin-top: 3px;
+       
+       
+      }
+    
+    .orginal{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+       
+    }
+    .orginal2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+       
+    }
+    
+    
+}
+@media  (min-width:400px) and (max-width:500px) 
+{
+    .dropdown-manage{
+        width: 100%;
+        height: 300px;
+        background-color:white;
+      
+        margin-top: -50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+    }
+    .select-button{
+        width: 350px;
+        font-weight: 900;
+        height: 42px;
+       
+        
+    }
+    .dropdown-button{
+        width: auto;
+        height: auto;
+        
+        margin-top: -44px;
+        
+       
+        
+        
+           
+    }
+    
+    .select-manage{
+      width:73%;
+      margin-bottom: 3px;
+      
+      
+     
+
+     
+    }
+    .select-manage2{
+        width: 30%;
+        margin-top: 3px;
+       
+       
+      }
+    
+    .orginal{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+       
+    }
+    .orginal2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+       
+    }
+    
+    
+}
+@media  (min-width:501px) and (max-width:550px) 
 {
     .dropdown-manage{
         width: 100%;
@@ -103,16 +382,16 @@
     }
     
     .select-manage{
-      width: 80%;
+      width:97%;
       margin-bottom: 3px;
-      margin-top: 3px;
+      
       
      
 
      
     }
     .select-manage2{
-        width: 34%;
+        width: 42%;
         margin-top: 3px;
        
        
@@ -136,28 +415,268 @@
     
 }
 
-@media  (min-width:450px) and (max-width:550px) 
+
+@media  (min-width:768px) and (max-width:800px) 
 {
-
-    .dropdown-button{
-        width: auto;
-        height: auto;
-        
-        margin-top: -44px;
-       
+    .dropdown-manage{
+        width: 95%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
     }
-
     .select-manage{
-        width: 80%;
-        margin-bottom: 11px;
-        margin-top: 5px;
-        background-color: aquamarine;
-        
-       
-  
-       
+        width: 159px;
       }
-
+      .select-manage2{
+        width: 130px;
+      }
+      .select-button{
+          width: 324px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
 }
-
-
+@media  (min-width:801px) and (max-width:850px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 155px;
+      }
+      .select-manage2{
+        width: 140px;
+      }
+      .select-button{
+          width: 318px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:851px) and (max-width:920px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 175px;
+      }
+      .select-manage2{
+        width: 150px;
+      }
+      .select-button{
+          width: 356px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:921px) and (max-width:1000px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 195px;
+      }
+      .select-manage2{
+        width: 155px;
+      }
+      .select-button{
+          width: 396px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1001px) and (max-width:1050px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 205px;
+      }
+      .select-manage2{
+        width: 165px;
+      }
+      .select-button{
+          width: 415px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1051px) and (max-width:1100px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 215px;
+      }
+      .select-manage2{
+        width: 170px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1101px) and (max-width:1150px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 265px;
+      }
+      .select-manage2{
+        width: 195px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1151px) and (max-width:1200px) 
+{
+    .dropdown-manage{
+        width: 90%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 315px;
+      }
+      .select-manage2{
+        width: 225px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1201px) and (max-width:1300px) 
+{
+    .dropdown-manage{
+        width: 75%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 355px;
+      }
+      .select-manage2{
+        width: 245px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1381px) and (max-width:1450px) 
+{
+    .dropdown-manage{
+        width: 65%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 355px;
+      }
+      .select-manage2{
+        width: 245px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}
+@media  (min-width:1451px) and (max-width:1550px) 
+{
+    .dropdown-manage{
+        width: 64%;
+        height: 130px;
+        background-color:white;
+        margin: 0 auto;
+        margin-top: -60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: relative;
+    }
+    .select-manage{
+        width: 355px;
+      }
+      .select-manage2{
+        width: 245px;
+      }
+      .select-button{
+          width: 438px;
+          font-weight: 900;
+          height: 42px;
+          
+      }
+}

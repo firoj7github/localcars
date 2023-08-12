@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../../common/header/Header'
-import Header2 from '../../common/header/Header2'
+
 import Banner from './banner/Banner'
 import Searchbar from './search/Searchbar'
 import Brand from './brand/Brand'

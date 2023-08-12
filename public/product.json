@@ -5,8 +5,10 @@
         "body":"Coupe",
         "area":"663",
         "condition":"used",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"FWD",
-        "category":"acura",
+        "category":"Acura",
         "model":"TLX",
         "price":53885,
         "mileage":"6000 miles",
@@ -16,7 +18,8 @@
             "#000"
         ],
         "Transmission":"manual",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -25,18 +28,21 @@
         "body":"Wagon",
         "area":"410",
         "condition":"new",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"RWD",
-        "category":"acura",
+        "category":"Acura",
         "model":"RDX",
         "price":8915,
         "mileage":8000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/ygPxZCJ/red-luxury-sedan-road.jpg",
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"manual",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -45,18 +51,21 @@
         "body":"pickup Truck",
         "area":"520",
         "condition":"used",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"AWD",
         "category":"BMW",
         "model":"i5",
         "price":7810,
         "mileage":10000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/hgDPSfz/hero-43-768x461.jpg",
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"Autometic",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -65,18 +74,21 @@
         "body":"sedan",
         "area":"101",
         "condition":"certified",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"4WD",
         "category":"Ford",
         "model":"Cobra",
         "price":964,
         "mileage":10000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/njKzNVf/white-coupe-sport-car-standing-road-front-view.jpg",
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"manual",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -85,18 +97,21 @@
         "body":"SUV",
         "area":"336",
         "condition":"used",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"FWD",
         "category":"Kia",
         "model":"EV6",
         "price":3410,
         "mileage":10000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/7YKcdPc/hatchback-sm.png",
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"manual",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -105,19 +120,22 @@
         "body":"sedan",
         "area":"450",
         "condition":"certified",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"RWD",
         "category":"Jeep",
         "model":"M37",
         "price":541,
         "mileage":12000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/T1VKqtj/2019-jeep-wrangler-unlimited-sahara-leather-navi-cold-weather-active-safety.jpg",
        
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"autometic",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+        "zipCode": "99501"
         
     },
     {
@@ -126,18 +144,23 @@
         "body":"sedan",
         "area":"360",
         "condition":"new",
+        "deller":"Square One auto",
+        "location":"Rahway Nj .18mi. away",
         "drivetrains":"4*4",
         "category":"Tesla",
         "model":"Roadster",
         "price":879,
         "mileage":10000,
-        "img":" https://i.ibb.co/dJFW6s1/2023-nissan-rogue-sv-awd-4dr-crossover.jpg",
+        "img":"https://i.ibb.co/5GNd7QN/hero-50-768x461.jpg",
         "colors":[
             "#ff0000",
             "#000"
         ],
         "Transmission":"manual",
-        "fuel":"Diesel"
+        "fuel":"Diesel",
+       
+        "zipCode": "99501"
+
         
     }
 ]

@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { createContext, useContext, useEffect, useReducer } from "react";
 import { useProductContext } from "./ProductContext";
 import reducer from "../reducers/filterReducer"

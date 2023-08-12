@@ -8,6 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Header.css";
 import icon from "../../img/images.png"
 import { Link } from 'react-router-dom';
+import logo from "../../img/logo.png"
 
 
 function Header2() {
@@ -16,7 +17,9 @@ function Header2() {
     <nav className="navbar navbar-expand-lg nav-total">
   <div className="container-fluid">
     <a className="navbar-brand navbar-logo" href="#">
-      <h1 className="fw-bold">CARSPOT</h1>
+      <h1 className="fw-bold">
+        <img className="logo" src={logo} alt=""/>
+      </h1>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

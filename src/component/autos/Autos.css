@@ -84,7 +84,7 @@
 }
 
 .filter-section{
-    height: 2153px;
+    height: 353px;
     width: 300px;
 
     box-shadow: rgba(144, 135, 135, 0.2) 0px 7px 29px 0px;
@@ -97,4 +97,34 @@
 .condition-button{
     border: 1px solid white;
     margin-top: 5px;
+}
+
+@media  (min-width:300px) and (max-width:1000px) 
+{
+    .show-control{
+        width: 300px;
+        
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .show-1{
+        width: 100px;
+       
+    }
+    .show-2{
+        width: 100px;
+        margin-left: -24px;
+    }
+    .show-3{
+        width: 100px;
+        margin-left: -24px;
+    }
+    .ad-section{
+        margin: 0 auto;
+        width: 300px;
+        height: 100px;
+        border:1px solid rgb(156, 158, 156) ;
+        background: url(../../img/bb.png.jpg);
+    }
 }
