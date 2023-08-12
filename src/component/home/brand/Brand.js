@@ -179,15 +179,15 @@ function Brand() {
                             <p className="count ms-1">(685)</p>
                         </div>
                         <div className="d-flex mb-2">
-                            <h6 className="car-title">Am General</h6>
+                            <h6 className="car-title"> General</h6>
                             <p className="count ms-1">(54)</p>
                         </div>
                         <div className="d-flex mb-2">
-                            <h6 className="car-title">Land Rover</h6>
+                            <h6 className="car-title">Rover</h6>
                             <p className="count ms-1">(469)</p>
                         </div>
                         <div className="d-flex mb-2">
-                            <h6 className="car-title">Rolls-Royce</h6>
+                            <h6 className="car-title ">Rolls</h6>
                             <p className="count ms-1">(300)</p>
                         </div>
                     </div>
