@@ -128,6 +128,68 @@ nav ul li{
     }
 
 }
+@media  (min-width:260px) and (max-width:299px) 
+{
+    .responsive-nav{
+        background-color: white;
+        height: auto;
+        margin-top: 40px;
+        width: 100%;
+        scroll-behavior: unset;
+        z-index: 2;
+        margin-top: -1px;
+        width: 100%;
+        position: relative;
+       
+        
+        
+    }
+    .nav-first ul li{
+        font-size: 13px;
+    }
+    .navbar-nav{
+        padding: 0;
+       
+      }
+    
+    .navbar-logo{
+        margin-left: 0px;
+    }
+    .ll{
+        margin-bottom: 25px;
+        
+    }
+    .login-item{
+        margin-left: -35px;
+    }
+    .about-item{
+       display: none;
+    }
+    .faq-item{
+        display: none;
+    }
+    .header-button{
+        background-color: rgb(184, 27, 45);
+        border: 1px solid rgb(184, 27, 45);
+        padding-left: 3px;
+        padding-right: 3px;
+        color: white;
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .service-call{
+       visibility: hidden;
+       
+      }
+      .nav-total{
+        background-color: white;
+        height: 90px;
+       border-bottom: 1px solid rgb(213, 208, 208);
+       box-shadow: rgba(195, 191, 191, 0.16) 0px 1px 4px;
+    }
+
+}
 @media  (min-width:321px) and (max-width:350px) 
 {
     .responsive-nav{

@@ -25,6 +25,38 @@
     font-size: 20px;
    
 }
+@media  (min-width:260px) and (max-width:299px) 
+{
+    .banner{
+        background: url(/src/img/f2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+    .banner-title{
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+    .option-button{
+        background-color: darkcyan;
+        width: 120px;
+        margin: 0 auto;
+        height: 30px;
+        padding-left: 23px;
+        padding-top: 7px;
+        font-size: 12px;
+        
+    }
+    .banner-para{
+        font-size: 10px;
+        display: none;
+       
+    }
+}
 @media  (min-width:300px) and (max-width:767px) 
 {
     .banner{
