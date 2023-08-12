@@ -117,6 +117,22 @@ function Auto() {
                  </div>
                  <div></div>
                 {/* condition filter close */}
+                <p className='condition'> Price Filter</p> 
+                <div>
+  <input type="range" id="volume" name="volume" min="0" max="16" />
+  <label for="volume"></label>
+</div>
+                <p className='condition'> Mileage Filter</p> 
+                <div>
+  <input type="range" id="volume" name="volume" min="0" max="11" />
+  <label for="volume"></label>
+</div>
+                <p className='condition'> Year Filter</p> 
+                <div>
+  <input type="range" id="volume" name="volume" min="0" max="11" />
+  <label for="volume"></label>
+</div>
+               
 
               </div>
               <div className="col-lg-8  p-0 m-0">

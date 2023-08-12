@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Trending.css"
-import img1 from"../../../img/2018-bmw-x3-m40i-awd-4dr-suv.jpg"
+import img1 from"../../../img/2014-gmc-sierra-1500-sle-crew-cab-pickup-1619638028.jpg"
 import img2 from"../../../img/2018-jeep-compass-trailhawk-sport-utility-164778574.jpg"
 import img3 from"../../../img/2019-chevrolet-equinox-ls-sport-utility-2107783355.jpg"
 import img4 from"../../../img/2023-mitsubishi-outlander-es-sport-utility-1416567842.jpg"
@@ -20,8 +20,8 @@ function Trending() {
     <div className="card h-100">
       <img src={img1} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">2014-gmc-sierra-1500-sle-crew-cab-pickup</h5>
+        <p className="card-text">KBB.com Brand Image Awards. Scores 23 Highway MPG and 16 City MPG! This GMC Sierra 1500 delivers a Gas/Ethanol V8 5.3L/325 engine powering this Automatic transmission.</p>
       </div>
       
     </div>
@@ -30,8 +30,8 @@ function Trending() {
     <div className="card h-100">
       <img src={img2}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">2018-jeep-compass-trailhawk-sport</h5>
+        <p className="card-text">Scores 25 Highway MPG and 17 City MPG! This Ram 1500 Classic delivers a Regular Unleaded V-6 3.6 L/220 engine powering this Automatic transmission.</p>
       </div>
       
     </div>
@@ -40,8 +40,8 @@ function Trending() {
     <div className="card h-100">
       <img src={img3}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">2019-chevrolet-equinox-ls-sport</h5>
+        <p className="card-text">Chevrolet Brand Image Awards. Scores 23 Highway MPG and 16 City MPG! This GMC Sierra 1500 delivers a Gas/Ethanol V8 5.3L/325 engine powering this Automatic transmission.</p>
       </div>
       
     </div>
@@ -50,8 +50,8 @@ function Trending() {
     <div className="card h-100">
       <img src={img4}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h5 className="card-title">2023-mitsubishi-outlander-es-spor</h5>
+        <p className="card-text">Jeep 25 Highway MPG and 17 City MPG! This Ram 1500 Classic delivers a Regular Unleaded V-6 3.6 L/220 engine powering this Automatic transmission.</p>
       </div>
       
     </div>

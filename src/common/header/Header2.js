@@ -50,9 +50,9 @@ function Header2() {
       
           <img className="service-icon" src={icon}></img>
           <p className="mt-1 fw-bold">
-            <span className="call"> Call us now</span>
+            <span className="call"> 24 Hours</span>
             <br/>
-            <span className="number"> 111 222 333</span>
+            <span className="number"> Best Service</span>
           </p>
         
       </div>

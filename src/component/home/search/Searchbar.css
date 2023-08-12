@@ -164,6 +164,27 @@
        
         
     }
+    .nav-manage{
+        background-color: rgb(45, 42, 42);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-weight: 500;
+        padding-left: 7px;
+        padding-right: 7px;
+        color: white;
+        
+    
+        
+    }
+    .nav-manages{
+        background-color: rgb(45, 42, 42);
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: unset;
+        color: white;
+        font-weight: 500;
+       
+    }
     
     
 }
@@ -191,7 +212,7 @@
     }
 
     .select-button{
-        width: 250px;
+        width: 298px;
         font-weight: 900;
         height: 42px;
        
@@ -199,7 +220,7 @@
     }
     
     .select-manage{
-      width:58%;
+      width:97%;
       margin-bottom: 3px;
       
       
@@ -208,7 +229,7 @@
      
     }
     .select-manage2{
-        width: 22%;
+        width: 43%;
         margin-top: 3px;
         font-size: 13px;
        
@@ -227,6 +248,27 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+       
+    }
+    .nav-manage{
+        background-color: rgb(45, 42, 42);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        
+    
+        
+    }
+    .nav-manages{
+        background-color: rgb(45, 42, 42);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: unset;
+        color: white;
+        font-weight: 500;
        
     }
     
@@ -255,7 +297,7 @@
            
     }
     .select-button{
-        width: 250px;
+        width: 312px;
         font-weight: 900;
         height: 42px;
        
@@ -263,7 +305,7 @@
     }
     
     .select-manage{
-      width:66%;
+      width:99%;
       margin-bottom: 3px;
       
       
@@ -272,7 +314,7 @@
      
     }
     .select-manage2{
-        width: 26%;
+        width: 44%;
         margin-top: 3px;
        
        
@@ -290,6 +332,27 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+       
+    }
+    .nav-manage{
+        background-color: rgb(45, 42, 42);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-weight: 500;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        
+    
+        
+    }
+    .nav-manages{
+        background-color: rgb(45, 42, 42);
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: unset;
+        color: white;
+        font-weight: 500;
        
     }
     
@@ -307,15 +370,16 @@
        
     }
     .select-button{
-        width: 350px;
+        width: 340px;
         font-weight: 900;
         height: 42px;
        
         
     }
     .dropdown-button{
-        width: auto;
+        width: 350px;
         height: auto;
+       
         
         margin-top: -44px;
         
@@ -326,7 +390,7 @@
     }
     
     .select-manage{
-      width:73%;
+      width:100%;
       margin-bottom: 3px;
       
       
@@ -335,7 +399,7 @@
      
     }
     .select-manage2{
-        width: 30%;
+        width: 43%;
         margin-top: 3px;
        
        
@@ -355,6 +419,29 @@
         margin-top: 10px;
        
     }
+
+    .nav-manage{
+        background-color: rgb(45, 42, 42);
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        font-weight: 500;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        
+    
+        
+    }
+    .nav-manages{
+        background-color: rgb(45, 42, 42);
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: unset;
+        color: white;
+        font-weight: 500;
+       
+    }
+    
     
     
 }

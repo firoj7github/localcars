@@ -6,32 +6,32 @@
   },
   {
     "id":2,
-    "name":"RDX",
-    "category_id": 1
+    "name":"LXS",
+    "category_id": 3
   },
   {
     "id":3,
-    "name":"i5",
+    "name":"3 Series",
     "category_id": 2
   },
   {
     "id":4,
-    "name":"Cobra",
+    "name":"F-150",
     "category_id": 6
   },
   {
     "id":5,
-    "name":"EV6",
+    "name":"Sportage",
     "category_id": 3
   },
   {
     "id":6,
-    "name":"M37",
+    "name":"Patriot",
     "category_id": 5
   },
   {
     "id":7,
-    "name":"Roadster",
+    "name":"q5",
     "category_id": 4
   }
 ]

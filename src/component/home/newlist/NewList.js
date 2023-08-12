@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from"../../../img/2021-ram-3500-big-horn-4x4-crew-cab8-box.jpg"
-import img2 from"../../../img/2023-nissan-rogue-sv-awd-4dr-crossover.jpg"
-import img3 from"../../../img/2019-jeep-wrangler-unlimited-sahara-leather-navi-cold-weather-active-safety.jpg"
-import img4 from"../../../img/2018-bmw-x3-m40i-awd-4dr-suv.jpg"
+import img1 from"../../../img/2021-nissan-versa-sv-4dr-car-173199609.jpg"
+import img2 from"../../../img/2019-mitsubishi-mirage-g4-es-4dr-car-949074954.jpg"
+import img3 from"../../../img/2014-ram-1500-big-horn-crew-cab-pickup-871832008.jpg"
+import img4 from"../../../img/2017-ram-promaster-city-cargo-van-tradesman-mi-1132999780.jpg"
 
 function NewList() {
     return (
@@ -18,8 +18,8 @@ function NewList() {
     <div className="card h-100">
       <img src={img1} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">2021-nissan-versa-sv-4dr-car</h5>
+        <p className="card-text">Boasts 40 Highway MPG and 32 City MPG! This Nissan Versa boasts a Regular Unleaded I-4 1.6 L/98 engine powering this Variable transmission.</p>
       </div>
       
     </div>
@@ -28,8 +28,8 @@ function NewList() {
     <div className="card h-100">
       <img src={img2}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">2019-mitsubishi-mirage-g4-es-4dr</h5>
+        <p className="card-text">Scores 41 Highway MPG and 35 City MPG! This Mitsubishi Mirage G4 delivers a Regular Unleaded I-3 1.2 L/73 engine powering this Variable transmission.</p>
       </div>
      
     </div>
@@ -38,8 +38,8 @@ function NewList() {
     <div className="card h-100">
       <img src={img3}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">2014-ram-1500-big-horn-crew-cab-pickup</h5>
+        <p className="card-text">Boasts 21 Highway MPG and 15 City MPG! This Ram 1500 boasts a Regular Unleaded V-8 5.7 L/345 engine powering this Automatic transmission.</p>
       </div>
       
     </div>
@@ -48,8 +48,8 @@ function NewList() {
     <div className="card h-100">
       <img src={img4}  className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h5 className="card-title">2017-ram-promaster-city-cargo-van-tradesman</h5>
+        <p className="card-text">Scores 41 Highway MPG and 35 City MPG! This Mitsubishi Mirage G4 delivers a Regular Unleaded I-3 1.2 L/73 engine powering this Variable transmission.</p>
       </div>
       
     </div>

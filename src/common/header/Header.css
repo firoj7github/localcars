@@ -52,10 +52,10 @@ nav ul li{
     height: 60px;
   }
   .call{
-    color: darkgray;
+    color: rgb(61, 60, 60);
   }
   .number{
-   color: rgb(184, 27, 45); 
+    color: rgb(61, 60, 60);
   }
   .service-call{
     margin-right: 70px;
@@ -120,6 +120,12 @@ nav ul li{
        visibility: hidden;
        
       }
+      .nav-total{
+        background-color: white;
+        height: 90px;
+       border-bottom: 1px solid rgb(213, 208, 208);
+       box-shadow: rgba(195, 191, 191, 0.16) 0px 1px 4px;
+    }
 
 }
 @media  (min-width:321px) and (max-width:350px) 
