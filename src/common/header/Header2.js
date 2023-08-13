@@ -33,20 +33,25 @@ function Header2() {
           <Link to="/autos" className="nav-link" href="#">Autos</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Vehicle History</a>
+          <Link  className="nav-link" href="#">News</Link>
         </li>
+        <li className="nav-item">
+          <Link  className="nav-link" href="#">SEARCH</Link>
+        </li>
+        <li className="nav-item">
+          <Link  className="nav-link" href="#">Favorites</Link>
+        </li>
+        
         <li className="nav-item">
           <a className="nav-link" href="#">Recently Added</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Find Car Delar</a>
-        </li>
+        
         
 
         
         
       </ul>
-      <div className="d-flex service-call">
+      {/* <div className="d-flex service-call">
       
           <img className="service-icon" src={icon}></img>
           <p className="mt-1 fw-bold">
@@ -55,7 +60,7 @@ function Header2() {
             <span className="number"> Best Service</span>
           </p>
         
-      </div>
+      </div> */}
       
     </div>
   </div>

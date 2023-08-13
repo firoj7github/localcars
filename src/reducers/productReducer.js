@@ -11,10 +11,17 @@ const ProductReducer= (state, action)=>{
 
     case "SET_API_DATA":
 
+    const trendingData = action.payload.filter((curEle)=>{
+      return curEle.trending === true;
+      
+    });
+    console.log(trendingData);
+
     return{
       ...state,
       isLoading: false,
       products: action.payload,
+      trendingProducts:trendingData,
     }
 
 

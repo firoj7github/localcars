@@ -13,14 +13,10 @@
         "price":26950,
         "mileage":"6000 miles",
         "img":"https://i.ibb.co/4pnZx70/2019-acura-tlx-4dr-car-1239566341.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
         "Transmission":"manual",
         "fuel":"Diesel",
-        "zipCode": "99501"
-        
+        "zipCode": "99501",
+        "trending":"true"
     }, 
     {
         "id":2,
@@ -36,13 +32,12 @@
         "price":8915,
         "mileage":8000,
         "img":"https://i.ibb.co/Tg5BMXq/2021-kia-forte-lxs-4dr-car-619194833.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"manual",
         "fuel":"Diesel",
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "trending":"true"
+
         
     },
     {
@@ -59,13 +54,11 @@
         "price":7810,
         "mileage":10000,
         "img": "https://i.ibb.co/7kXv3N4/2013-bmw-3-series-328i-xdrive-4dr-car-1816354886.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"Autometic",
         "fuel":"Diesel",
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "trending":"true"
         
     },
     {
@@ -82,13 +75,11 @@
         "price":964,
         "mileage":10000,
         "img":"https://i.ibb.co/PxHxy2r/2019-ford-f-150-xlt-crew-cab-pickup-332534748.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"manual",
         "fuel":"Diesel",
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "trending":"true"
         
     }, 
     {
@@ -105,13 +96,11 @@
         "price":3410,
         "mileage":10000,
         "img":"https://i.ibb.co/BGqQMbf/2020-kia-sportage-lx-sport-utility-1106410440.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"manual",
         "fuel":"Diesel",
         "zipCode": "99501"
+       
         
     }, 
     {
@@ -129,13 +118,11 @@
         "mileage":12000,
         "img":"https://i.ibb.co/JRVNh3f/2017-jeep-patriot-sport-sport-utility-1882426381.jpg",
        
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"autometic",
         "fuel":"Diesel",
         "zipCode": "99501"
+       
         
     }, 
     {
@@ -152,14 +139,12 @@
         "price":879,
         "mileage":10000,
         "img":"https://i.ibb.co/wB1T1N8/2014-audi-q5-premium-plus-sport-utility-1174797309.jpg",
-        "colors":[
-            "#ff0000",
-            "#000"
-        ],
+        
         "Transmission":"manual",
         "fuel":"Diesel",
        
         "zipCode": "99501"
+       
 
         
     } 

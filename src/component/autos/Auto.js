@@ -7,12 +7,13 @@ import "./Autos.css"
 function Auto() {
 
    
-    const{ filter_products, 
+    const{ filter_products,
+     
       all_products,
       filters:{condition},
       updateFilterValue,
     }= useFilterContext();
-    console.log(filter_products)
+  
 
 
 
@@ -96,8 +97,11 @@ function Auto() {
             </div>
             <div className="row  m-0 p-0 ">
               <div className="col-lg-4 filter-section me-4  mb-2">
+                <h5 className='fw-bold mt-2 mb-3'>FILTER RESULT</h5>
                 {/* condition filter start */}
-                 <p className='condition'>Condition</p> 
+                <p className='condition m-0'>Condition</p> 
+                <div className='condition-all'>
+               
                  <div className="d-flex flex-column p-2">
                   {
                     onlyConditiondata.map((curCon, index)=>{
@@ -111,27 +115,53 @@ function Auto() {
 
                         >
                           {curCon}
+                         
+                          
                         </button>
                     })
                   }
                  </div>
+                </div>
+                 
                  <div></div>
                 {/* condition filter close */}
-                <p className='condition'> Price Filter</p> 
+                <p className='condition mt-4'> Price Filter</p> 
                 <div>
-  <input type="range" id="volume" name="volume" min="0" max="16" />
+  <input className='price-filter' type="range" id="volume" name="volume" min="0" max="16" />
   <label for="volume"></label>
 </div>
                 <p className='condition'> Mileage Filter</p> 
                 <div>
-  <input type="range" id="volume" name="volume" min="0" max="11" />
+  <input className='price-filter' type="range" id="volume" name="volume" min="0" max="11" />
   <label for="volume"></label>
 </div>
                 <p className='condition'> Year Filter</p> 
                 <div>
-  <input type="range" id="volume" name="volume" min="0" max="11" />
+  <input className='price-filter' type="range" id="volume" name="volume" min="0" max="11" />
   <label for="volume"></label>
 </div>
+
+
+    <p className="condition mt-4 m-0 mb-2">Exterior Color</p>
+
+    <div className="color-all">
+      
+      <button className='black-button'></button>
+      <button className='red-button'></button>
+      <button className='yellow-button'></button>
+      <button className='green-button'></button>
+      <button className='gray-button'></button>
+      
+      <button className='beguni-button'></button>
+      <button className='white-button'></button>
+      <button className='purple-button'></button>
+      <button className='sky-button'></button>
+      <button className='loyol-button'></button>
+      
+      
+      
+      
+    </div>
                
 
               </div>

@@ -84,20 +84,114 @@
 }
 
 .filter-section{
-   height: 430px;
+   height: 700px;
     width: 300px;
 
     box-shadow: rgba(144, 135, 135, 0.2) 0px 7px 29px 0px;
     border: 1px solid rgb(212, 207, 207);
 }
 .condition{
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 10px;
+    
+   
+}
+.condition-all{
+    border: 0.1px solid rgb(180, 178, 178);
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
 }
 .condition-button{
     border: 1px solid white;
     margin-top: 5px;
 }
+.price-filter{
+    width: 257px;
+}
+
+.color-all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    border: 0.1px solid rgb(180, 178, 178);
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+
+.black-button{
+    background-color: black;
+    width: 50px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.red-button{
+    background-color: rgb(191, 8, 8);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(191, 8, 8);
+    border-radius: 5px;
+}
+.green-button{
+    background-color: rgb(10, 162, 94);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(10, 162, 94);
+    border-radius: 5px;
+}
+.yellow-button{
+    background-color: rgb(193, 214, 7);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(164, 146, 8);
+    border-radius: 5px;
+}
+.gray-button{
+    background-color: rgb(189, 185, 185);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 5px;
+}
+.white-button{
+    background-color: white;
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+}
+.beguni-button{
+    background-color: rgb(116, 12, 191);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(116, 12, 191);
+    border-radius: 5px;
+}
+.purple-button{
+    background-color: rgb(12, 72, 191);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(12, 72, 191);
+    border-radius: 5px;
+}
+.sky-button{
+    background-color: rgb(12, 191, 39);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(12, 191, 39);
+    border-radius: 5px;
+}
+.loyol-button{
+    background-color: rgb(191, 87, 12);
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(191, 87, 12);
+    border-radius: 5px;
+}
+
+
 
 @media  (min-width:300px) and (max-width:1000px) 
 {

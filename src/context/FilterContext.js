@@ -44,6 +44,7 @@ export const FilterContextProvider=({children})=>{
 
   useEffect(()=>{
     dispatch({type:"FILTER_PRODUCTS"})
+    dispatch({type:"TRENDING_PRODUCTS"})
     dispatch({type:"LOAD_FILTER_PRODUCT", payload:products})
 
   },[products])

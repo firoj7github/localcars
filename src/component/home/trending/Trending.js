@@ -4,8 +4,12 @@ import img1 from"../../../img/2014-gmc-sierra-1500-sle-crew-cab-pickup-161963802
 import img2 from"../../../img/2018-jeep-compass-trailhawk-sport-utility-164778574.jpg"
 import img3 from"../../../img/2019-chevrolet-equinox-ls-sport-utility-2107783355.jpg"
 import img4 from"../../../img/2023-mitsubishi-outlander-es-sport-utility-1416567842.jpg"
+import { useFilterContext } from '../../../context/FilterContext'
+import { useProductContext } from '../../../context/ProductContext'
 
 function Trending() {
+  const{ trendingProducts }= useProductContext();
+  console.log(trendingProducts)
     return (
         <div>
             

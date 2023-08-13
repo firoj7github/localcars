@@ -24,7 +24,7 @@ const filterReducer =(state, action)=>{
             case "FILTER_PRODUCTS":
                 let {all_products}= state;
                 let tempFilterProduct=[...all_products];
-                const {condition}= state.filters;
+                const {condition, trending}= state.filters;
                 
                 if(condition){
                     tempFilterProduct=tempFilterProduct.filter((curEle)=>{
@@ -33,12 +33,16 @@ const filterReducer =(state, action)=>{
                     })
                     
                 }
+
                 return{
                    ...state,
-                   filter_products: tempFilterProduct,
+                   filter_products:tempFilterProduct,
                    
 
                 }
+
+
+               
                
                
             

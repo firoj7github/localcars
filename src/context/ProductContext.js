@@ -9,7 +9,8 @@ const API="http://localhost:3000/product.json";
 const initialState={
     isLoading: false,
     isError: false,
-    products:[]
+    products:[],
+    trendingProducts:[],
 }
 
 
