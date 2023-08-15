@@ -8,9 +8,13 @@ import Header from './common/header/Header';
 import Header2 from './common/header/Header2';
 import Footer from './common/footer/Footer';
 import Auto from './component/autos/Auto';
+import SingleProduct from './component/singleProduct/SingleProduct';
 
 function App() {
   return (
+
+  
+
   
     <div>
       
@@ -19,7 +23,10 @@ function App() {
       <Header2></Header2>
       <Routes>
         <Route path="/" element={ <Home></Home>}/>
-        <Route path="/autos" element={ <Auto></Auto>}/>
+        <Route path="/autos" element={ <Auto
+     
+        ></Auto>}/>
+       <Route path="/auto" element={<SingleProduct></SingleProduct>}></Route>
       </Routes>
        <Footer></Footer>
       </Router>

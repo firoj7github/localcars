@@ -7,6 +7,14 @@ const filterReducer =(state, action)=>{
                filter_products:[...action.payload],
                all_products:[...action.payload]
             };
+        case "SINGLE_FILTER_PRODUCT":
+            const {item}= action.payload;
+            return{
+               ...state,
+               item:{item},
+               
+            };
+            
 
 
             case "Update_Filter_value":

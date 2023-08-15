@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -13,7 +14,7 @@ function Header() {
             <li>Profile</li>
            
         </ul>
-        <button className="header-button ">Become a Dealer</button>
+        <Link to="http://localcarz.azimdenim.com/dealer/register?fbclid=IwAR3k6AxxuU5XXUt6a_kb3IWLBHeJUXvq_TEC-3JUpxdGtcuDPbEUo-4HqrY" target='_blank' className="header-button text-decoration-none pt-2">Become a Dealer</Link>
        
 
        </nav>

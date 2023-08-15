@@ -5,11 +5,13 @@ import img2 from"../../../img/2018-jeep-compass-trailhawk-sport-utility-16477857
 import img3 from"../../../img/2019-chevrolet-equinox-ls-sport-utility-2107783355.jpg"
 import img4 from"../../../img/2023-mitsubishi-outlander-es-sport-utility-1416567842.jpg"
 import { useFilterContext } from '../../../context/FilterContext'
-import { useProductContext } from '../../../context/ProductContext'
+import TrendingShow from './TrendingShow'
+
 
 function Trending() {
-  const{ trendingProducts }= useProductContext();
-  console.log(trendingProducts)
+  const{ all_products }= useFilterContext();
+  console.log(all_products);
+  
     return (
         <div>
             
@@ -20,7 +22,17 @@ function Trending() {
             <p className="trending-para">Stay informed with our expert, in-depth car reviews and breaking auto news.</p>
             </div>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
-  <div className="col">
+
+              {
+                all_products.slice(0,4).map((trend,id)=>{
+                   return <TrendingShow
+                    key={trend.id}
+                    {...trend }
+                   />
+                   
+                })
+              }
+  {/* <div className="col">
     <div className="card h-100">
       <img src={img1} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -59,7 +71,7 @@ function Trending() {
       </div>
       
     </div>
-  </div>
+  </div> */}
 </div>
         </div>
         </div>

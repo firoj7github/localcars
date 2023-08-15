@@ -1,5 +1,5 @@
 import axios from "axios";
-import { createContext, useContext, useEffect, useReducer } from "react";
+import { createContext, useContext, useEffect, useReducer, useState } from "react";
 import reducer from "../reducers/productReducer"
 
 
@@ -15,6 +15,9 @@ const initialState={
 
 
 const AppProvider=({children})=>{
+
+    const [single, setSingle]= useState({});
+   
 
     const [state, dispatch]= useReducer(reducer, initialState);
 
@@ -32,7 +35,13 @@ const AppProvider=({children})=>{
     useEffect(()=> {
         getProducts(API);
        },[])
-    return ( <AppContext.Provider value={{ ...state}}>
+    return ( <AppContext.Provider value={{ 
+        ...state,
+        single,
+        setSingle
+
+    
+    }}>
         {children}
     </AppContext.Provider>
   );

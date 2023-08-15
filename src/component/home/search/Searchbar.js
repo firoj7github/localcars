@@ -293,7 +293,7 @@ const maxPrice = [
             <div className="d-flex">
             <Select className="select-manage2 ms-3 " placeholder="50 miles" options={area} />
             <p className="ms-4 mt-2">OF</p>
-          <Select className="select-manage2 ms-4" placeholder="Zip Code" options={models} />
+          <Select disablead className="select-manage2 ms-4" placeholder="Zip Code" options={area} />
               </div>
             
           <Button className="ms-4 select-button" variant="danger" onClick={handleSearchCar}><h5><i className="fa fa-search me-2 fs-5"></i>FIND YOURS</h5></Button>

@@ -13,6 +13,9 @@ function Auto() {
       filters:{condition},
       updateFilterValue,
     }= useFilterContext();
+
+
+    
   
 
 
@@ -85,7 +88,7 @@ function Auto() {
 
     // we need unique condition
 
-    const onlyConditiondata = getUniqueData(all_products, "condition");
+    const onlyConditiondata = getUniqueData(all_products, "Transmission");
 
     
 
@@ -99,7 +102,7 @@ function Auto() {
               <div className="col-lg-4 filter-section me-4  mb-2">
                 <h5 className='fw-bold mt-2 mb-3'>FILTER RESULT</h5>
                 {/* condition filter start */}
-                <p className='condition m-0'>Condition</p> 
+                <p className='condition m-0'>Transmission</p> 
                 <div className='condition-all'>
                
                  <div className="d-flex flex-column p-2">
@@ -168,7 +171,11 @@ function Auto() {
               <div className="col-lg-8  p-0 m-0">
                {
                 filterProductsList.map((auto, id)=>{
-                    return <AutoShow key={auto.id} {...auto}/>
+                    return <AutoShow key={auto.id} 
+                    {...auto }
+                    
+                    
+                    />
                 })
                }
               </div>

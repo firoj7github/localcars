@@ -61,7 +61,7 @@ function Footer() {
                  <hr className="w-100 clearfix d-md-none" />
        
                 
-                 <div className="col-md-5 col-lg-2 col-xl-2 mx-auto mt-3">
+                 <div className="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
                    <h5 className="text-uppercase mb-4 font-weight-bold">
                    MORE HELPFUL LINKS
                    </h5>
@@ -81,8 +81,18 @@ function Footer() {
                  <hr className="w-100 clearfix d-md-none" />
        
                 
-                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                   {/* <img className="award" src={award} alt=""/> */}
+                 <div className="col-md-4 col-lg-2 col-xl-3 mx-auto mt-3">
+                 <h5 className="text-uppercase mb-4 font-weight-bold">
+                 RESOURCES
+                   </h5>
+
+                   <p>
+                     <Link className="text-white text-decoration-none"></Link>
+                   </p>
+                   <p>
+                     <Link className="text-white text-decoration-none">Best Cars To Buy</Link>
+                   </p>
+                  
                  </div>
                 
                </div>
@@ -113,15 +123,17 @@ function Footer() {
                   
                    <Link
                       className="btn btn-outline-light btn-floating m-1"
-                    
+                     to="https://www.facebook.com/localcarzcom"
                       role="button"
+                      target="_blank"
                       ><i className="fab fa-facebook-f"></i
                      ></Link>
        
                   
                    <Link
                       className="btn btn-outline-light btn-floating m-1"
-                      
+                      to="https://twitter.com/i/flow/login?redirect_after_login=%2Flocalcarz"
+                      target="_blank"
                       role="button"
                       ><i className="fab fa-twitter"></i
                      ></Link>
@@ -129,15 +141,17 @@ function Footer() {
                   
                    <Link
                       className="btn btn-outline-light btn-floating m-1"
-                      
+                      to="https://www.pinterest.com/localcarz/?invite_code=3bb629501b8949fe870a6f680a91d14f&sender=1033717058128452304"
+                      target="_blank"
                       role="button"
-                      ><i className="fab fa-google"></i
+                      ><i className="fab fa-pinterest"></i
                      ></Link>
        
                   
                    <Link
                       className="btn btn-outline-light btn-floating m-1"
-                     
+                      to="https://www.instagram.com/localcarzcom/?fbclid=IwAR2eN64mKf473ym7PtmDIpvVM-ZZECE9n0qtIIO2gNMg3EA6IdKonpl7h-c"
+                      target="_blank"
                       role="button"
                       ><i className="fab fa-instagram"></i
                      ></Link>

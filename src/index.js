@@ -7,13 +7,17 @@ import { AppProvider } from './context/ProductContext';
 import { FilterContextProvider } from './context/FilterContext';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
     <AppProvider>
       <FilterContextProvider>
-      <App />
+       
+        <App />
+       
+     
       </FilterContextProvider>
     
     </AppProvider>

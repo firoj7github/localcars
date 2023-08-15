@@ -2,148 +2,165 @@
     {
         "id":1,
         "title":"2019 Acura TLX 4dr Car",
-        "body":"Coupe",
+        "body":"Sedan",
         "area":"663",
+        "des":"Scores 23 Highway MPG and 16 City MPG! This GMC Sierra 1500 delivers a Gas/Ethanol V8 5.3L/325 engine powering this Automatic transmission.",
         "condition":"used",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
         "drivetrains":"FWD",
-        "category":"Kia",
+        "category":"Acura",
         "model":"TLX",
         "price":26950,
-        "mileage":"6000 miles",
-        "img":"https://i.ibb.co/4pnZx70/2019-acura-tlx-4dr-car-1239566341.jpg",
-        "Transmission":"manual",
+        "mileage":"57948",
+        "img":"https://i.ibb.co/XZCYzSS/2019-acura-tlx-4dr-car-207153418-large.jpg",
+        "Transmission":"Autometic",
         "fuel":"Diesel",
         "zipCode": "99501",
-        "trending":"true"
+        "trending":"true",
+        "engine":"V-6 3.5 L/212"
     }, 
     {
         "id":2,
         "title":"2021 Kia Forte LXS 4dr Car",
-        "body":"Wagon",
+        "body":"Sedan",
         "area":"410",
+        "des":"Scores 25 Highway MPG and 17 City MPG! This Ram 1500 Classic delivers a Regular Unleaded V-6 3.6 L/220 engine powering this Automatic transmission",
         "condition":"new",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
-        "drivetrains":"RWD",
+        "drivetrains":"FWD",
         "category":"Kia",
         "model":"LXS",
-        "price":8915,
-        "mileage":8000,
+        "price":"17,500",
+        "mileage":80766,
         "img":"https://i.ibb.co/Tg5BMXq/2021-kia-forte-lxs-4dr-car-619194833.jpg",
         
-        "Transmission":"manual",
+        "Transmission":"Autometic",
         "fuel":"Diesel",
         "zipCode": "99501",
-        "trending":"true"
+        "trending":"true",
+        "engine":" I-4 2.0 L/122"
 
         
     },
     {
         "id":3,
         "title":"2013-bmw-3-series-328i-xdrive-4dr-car",
-        "body":"pickup Truck",
+        "body":"Sedan",
         "area":"520",
+        "des":" Scores 23 Highway MPG and 16 City MPG! This GMC Sierra 1500 delivers a Gas/Ethanol V8 5.3L/325 engine powering this Automatic transmission.",
         "condition":"used",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
-        "drivetrains":"AWD",
+        "drivetrains":"RWD",
         "category":"BMW",
         "model":"3 Series",
-        "price":7810,
-        "mileage":10000,
-        "img": "https://i.ibb.co/7kXv3N4/2013-bmw-3-series-328i-xdrive-4dr-car-1816354886.jpg",
+        "price":13500,
+        "mileage":115279,
+        "img":  "https://i.ibb.co/cD0m27t/2015-bmw-3-series-328i-4dr-car-348180049-large.jpg",
         
         "Transmission":"Autometic",
         "fuel":"Diesel",
         "zipCode": "99501",
-        "trending":"true"
+        "trending":"true",
+        "engine":" I-4 2.0 L/122"
         
     },
     {
         "id":4,
-        "title":"2019-ford-f-150-xlt-crew-cab-pickup",
-        "body":"sedan",
+        "title":"2019 Ford F-150 XLT Crew Cab Pickup",
+        "body":"Truck",
         "area":"101",
+        "des":"Jeep 25 Highway MPG and 17 City MPG! This Ram 1500 Classic delivers a Regular Unleaded V-6 3.6 L/220 engine powering this Automatic transmission.",
         "condition":"certified",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
         "drivetrains":"4WD",
         "category":"Ford",
         "model":"F-150",
-        "price":964,
-        "mileage":10000,
-        "img":"https://i.ibb.co/PxHxy2r/2019-ford-f-150-xlt-crew-cab-pickup-332534748.jpg",
+        "price":36800,
+        "mileage":
+        75451,
+        "img":"https://i.ibb.co/LvF13Jb/2019-ford-f-150-xlt-crew-cab-pickup-1660682611-large.jpg" ,
         
-        "Transmission":"manual",
+        "Transmission":"Autometic",
         "fuel":"Diesel",
         "zipCode": "99501",
-        "trending":"true"
+        "trending":"true",
+        "engine":"V-6 3.5 L/212"
         
     }, 
+    
     {
         "id":5,
         "title":"2020-kia-sportage-lx-sport",
         "body":"SUV",
         "area":"336",
+        "des":"Boasts 40 Highway MPG and 32 City MPG! This Nissan Versa boasts a Regular Unleaded I-4 1.6 L/98 engine powering this Variable transmission.",
         "condition":"used",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
         "drivetrains":"FWD",
         "category":"Kia",
         "model":"Sportage",
-        "price":3410,
-        "mileage":10000,
-        "img":"https://i.ibb.co/BGqQMbf/2020-kia-sportage-lx-sport-utility-1106410440.jpg",
+        "price":19950,
+        "mileage":
+        66578,
+        "img":"https://i.ibb.co/92Sn8zG/2020-kia-sportage-lx-sport-utility-1365682421-large.jpg" ,
         
-        "Transmission":"manual",
+        "Transmission":"Manual",
         "fuel":"Diesel",
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "engine":" I-4 2.4 L/144"
        
         
     }, 
     {
         "id":6,
         "title":"2017-jeep-patriot-sport-sport",
-        "body":"sedan",
+        "body":"SUV",
         "area":"450",
+        "des":"Scores 40 Highway MPG and 32 City MPG! This Nissan Versa boasts a Regular Unleaded I-4 1.6 L/98 engine powering this Variable transmission.",
         "condition":"certified",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
-        "drivetrains":"RWD",
+        "drivetrains":"FWD",
         "category":"Jeep",
         "model":"Patriot",
-        "price":541,
-        "mileage":12000,
-        "img":"https://i.ibb.co/JRVNh3f/2017-jeep-patriot-sport-sport-utility-1882426381.jpg",
+        "price":13950,
+        "mileage":86180,
+        "img":"https://i.ibb.co/ygxyM42/2017-jeep-patriot-sport-sport-utility-43774139-large.jpg",
        
         
-        "Transmission":"autometic",
+        "Transmission":"Autometic",
         "fuel":"Diesel",
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "engine":"I-4 2.0 L/122"
        
         
-    }, 
+    },  
     {
         "id":7,
         "title":"2014-audi-q5-premium-plus-sport",
-        "body":"sedan",
+        "body":"SUV",
         "area":"360",
+        "des":"Boasts 40 Highway MPG and 32 City MPG! This Nissan Versa boasts a Regular Unleaded I-4 1.6 L/98 engine powering this Variable transmission.",
         "condition":"new",
         "deller":"SKCO Automotive",
         "location":"Mobile, Alabama",
         "drivetrains":"AWD",
         "category":"Audi",
         "model":"q5",
-        "price":879,
-        "mileage":10000,
-        "img":"https://i.ibb.co/wB1T1N8/2014-audi-q5-premium-plus-sport-utility-1174797309.jpg",
+        "price":18500,
+        "mileage":82598,
+        "img":"https://i.ibb.co/HVqVMfq/2014-audi-q5-premium-plus-sport-utility-748387904-large.jpg",
         
-        "Transmission":"manual",
+        "Transmission":"Manual",
         "fuel":"Diesel",
        
-        "zipCode": "99501"
+        "zipCode": "99501",
+        "engine":"V-6 3.0 L/183"
        
 
         

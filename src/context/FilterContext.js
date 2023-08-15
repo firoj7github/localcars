@@ -1,5 +1,5 @@
 
-import { createContext, useContext, useEffect, useReducer } from "react";
+import { createContext, useContext, useEffect, useReducer, useState } from "react";
 import { useProductContext } from "./ProductContext";
 import reducer from "../reducers/filterReducer"
 
@@ -13,6 +13,9 @@ const initialState={
     filters:{
        condition:"all",
     },
+    item:{
+        
+    }
     
 }
 
@@ -20,7 +23,7 @@ export const FilterContextProvider=({children})=>{
 
     const {products}= useProductContext();
     
-
+ 
 
     const [state, dispatch]= useReducer(reducer, initialState);
 
@@ -49,12 +52,18 @@ export const FilterContextProvider=({children})=>{
 
   },[products])
 
+
+  
+
    
 
     return (
         <FilterContext.Provider value={{ 
             ...state,
-            updateFilterValue
+            updateFilterValue,
+           
+           
+           
             }}>
             {children}
         </FilterContext.Provider>
